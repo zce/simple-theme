@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 
-<plist version="1.0">
+<plist version="2.4">
 <dict>
   <key>author</key>
-  <string>Mattia Astorino (http:&#x2f;&#x2f;astorinomattia.it)</string>
+  <string>iceStone (http://github.com/zce)</string>
   <key>name</key>
-  <string>Material Theme</string>
+  <string>Simple Theme</string>
   <key>semanticClass</key>
-  <string>theme.light.material_theme</string>
+  <string>theme.simple.default</string>
   <key>colorSpaceName</key>
   <string>sRGB</string>
   <key>settings</key>
@@ -17,33 +17,33 @@
       <key>settings</key>
       <dict>
         <key>background</key>
-        <string>#FDF6E3</string>
+        <string>#263238</string>
         <key>caret</key>
-        <string>#27272790</string>
+        <string>#FFCC00</string>
         <key>foreground</key>
-        <string>#80CBC4</string>
+        <string>#eeffff</string>
         <key>invisibles</key>
-        <string>#E7EAEC</string>
+        <string>#65737e</string>
         <key>lineHighlight</key>
-        <string>#90A4AE20</string>
+        <string>#00000030</string>
         <key>selection</key>
-        <string>#80CBC440</string>
-        <key>selectionBorder</key>
-        <string>#B5DADA</string>
+        <string>#80CBC420</string>
         <key>guide</key>
-        <string>#B0BEC570</string>
+        <string>#37474F80</string>
         <key>activeGuide</key>
-        <string>#00000070</string>
+        <string>#80CBC470</string>
         <key>stackGuide</key>
-        <string>#B0BEC580</string>
+        <string>#37474Fff</string>
         <key>gutterForeground</key>
-        <string>#CFD8DC</string>
+        <string>#37474F</string>
         <key>findHighlight</key>
         <string>#F8E71C</string>
         <key>tagsOptions</key>
         <string>underline</string>
         <key>shadow</key>
-        <string>#90A4AE50</string>
+        <string>#00000010</string>
+        <key>selectionBorder</key>
+        <string>#516B79</string>
       </dict>
     </dict>
     <dict>
@@ -54,7 +54,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#afb8b8</string>
+        <string>#eeffff</string>
       </dict>
     </dict>
     <dict>
@@ -65,22 +65,22 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#B0BEC5ff</string>
+        <string>#546E7A</string>
         <key>fontStyle</key>
         <string>italic</string>
       </dict>
     </dict>
+    <dict>
+      <key>name</key>
+      <string>notes</string>
+      <key>scope</key>
+      <string>notes</string>
+      <key>settings</key>
       <dict>
-        <key>name</key>
-        <string>notes</string>
-        <key>scope</key>
-        <string>notes</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#8EACE3</string>
-        </dict>
+        <key>foreground</key>
+        <string>#8EACE3</string>
       </dict>
+    </dict>
     <dict>
       <key>name</key>
       <string>Text and Source Base Colors</string>
@@ -89,7 +89,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#8796b0ff</string>
+        <string>#CDD3DE</string>
       </dict>
     </dict>
     <dict>
@@ -100,7 +100,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#99b89dff</string>
+        <string>#d9f5dd</string>
       </dict>
     </dict>
     <dict>
@@ -122,7 +122,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#39ADB5</string>
+        <string>#c792ea</string>
       </dict>
     </dict>
     <dict>
@@ -133,7 +133,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#945eb8ff</string>
+        <string>#c792ea</string>
       </dict>
     </dict>
     <dict>
@@ -144,7 +144,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#597078</string>
+        <string>#B2CCD6</string>
       </dict>
     </dict>
     <dict>
@@ -155,7 +155,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#6182b8ff</string>
+        <string>#82AAFF</string>
       </dict>
     </dict>
     <dict>
@@ -166,7 +166,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#3fb3a8</string>
+        <string>#89DDFF</string>
       </dict>
     </dict>
     <dict>
@@ -177,7 +177,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#b8b8b8</string>
+        <string>#B2CCD6</string>
       </dict>
     </dict>
     <dict>
@@ -188,7 +188,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#6182b8</string>
+        <string>#82B1FF</string>
       </dict>
     </dict>
     <dict>
@@ -199,7 +199,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#FF9900</string>
+        <string>#FFCB6B</string>
       </dict>
     </dict>
     <dict>
@@ -207,11 +207,11 @@
       <string>Support</string>
       <key>scope</key>
       <string>support.function,
-keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, punctuation.separator.inheritance.php, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, meta.function-call meta.function-call.arguments variable.parameter.function, text.html.markdown meta.paragraph meta.link.inline, text.html.markdown meta.paragraph meta.link.inline punctuation.definition.string.begin.markdown, text.html.markdown meta.paragraph meta.link.inline punctuation.definition.string.end.markdown</string>
+keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, punctuation.separator.inheritance.php, punctuation.definition.tag, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, meta.function-call meta.function-call.arguments variable.parameter.function, text.html.markdown meta.paragraph meta.link.inline, text.html.markdown meta.paragraph meta.link.inline punctuation.definition.string.begin.markdown, text.html.markdown meta.paragraph meta.link.inline punctuation.definition.string.end.markdown, source.js, source.gulpfile.js variable.other.object.js, source.js</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#3fb3a8</string>
+        <string>#89DDFF</string>
       </dict>
     </dict>
     <dict>
@@ -222,7 +222,7 @@ keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, pu
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#91b859</string>
+        <string>#C3E88D</string>
       </dict>
     </dict>
     <dict>
@@ -233,7 +233,7 @@ keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, pu
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#E53935</string>
+        <string>#F77669</string>
       </dict>
     </dict>
     <dict>
@@ -244,7 +244,7 @@ keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, pu
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#E53935</string>
+        <string>#F77669</string>
       </dict>
     </dict>
     <dict>
@@ -255,7 +255,7 @@ keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, pu
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#91b859</string>
+        <string>#C3E88D</string>
       </dict>
     </dict>
     <dict>
@@ -266,7 +266,7 @@ keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, pu
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#E53935</string>
+        <string>#F77669</string>
       </dict>
     </dict>
     <dict>
@@ -277,7 +277,7 @@ keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, pu
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#FF9900</string>
+        <string>#F77669</string>
       </dict>
     </dict>
     <dict>
@@ -288,7 +288,7 @@ keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, pu
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#FF5370</string>
+        <string>#ff5370</string>
       </dict>
     </dict>
     <dict>
@@ -299,7 +299,7 @@ keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, pu
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#FFA000</string>
+        <string>#FFCB6B</string>
         <key>fontStyle</key>
         <string>italic</string>
       </dict>
@@ -312,7 +312,7 @@ keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, pu
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#7C4DFF</string>
+        <string>#FAD430</string>
       </dict>
     </dict>
     <dict>
@@ -323,7 +323,7 @@ keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, pu
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#945eb8ff</string>
+        <string>#c792eaff</string>
       </dict>
     </dict>
     <dict>
@@ -334,7 +334,7 @@ keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, pu
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#E53935</string>
+        <string>#F77669</string>
       </dict>
     </dict>
     <dict>
@@ -347,7 +347,7 @@ keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, pu
         <key>fontStyle</key>
         <string></string>
         <key>foreground</key>
-        <string>#4f99b8ff</string>
+        <string>#78ccf0ff</string>
       </dict>
     </dict>
     <dict>
@@ -358,7 +358,7 @@ keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, pu
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#E53935</string>
+        <string>#F77669</string>
       </dict>
     </dict>
     <dict>
@@ -368,10 +368,10 @@ keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, pu
       <string>markup.bold, punctuation.definition.bold, todo.bold</string>
       <key>settings</key>
       <dict>
-        <key>foreground</key>
-        <string>#E8BB66</string>
         <key>fontStyle</key>
-        <string> bold</string>
+        <string>bold</string>
+        <key>foreground</key>
+        <string>#ffcb6b</string>
       </dict>
     </dict>
     <dict>
@@ -384,7 +384,7 @@ keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, pu
         <key>fontStyle</key>
         <string>italic</string>
         <key>foreground</key>
-        <string>#945eb8ff</string>
+        <string>#c792eaff</string>
       </dict>
     </dict>
     <dict>
@@ -395,7 +395,7 @@ keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, pu
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#B8D337</string>
+        <string>#f1e655</string>
       </dict>
     </dict>
     <dict>
@@ -406,7 +406,7 @@ keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, pu
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#FF5370</string>
+        <string>#ff5370</string>
       </dict>
     </dict>
     <dict>
@@ -417,7 +417,7 @@ keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, pu
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#E53935</string>
+        <string>#F77669</string>
       </dict>
     </dict>
     <dict>
@@ -428,7 +428,7 @@ keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, pu
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#FF5370</string>
+        <string>#ff5370ff</string>
       </dict>
     </dict>
     <dict>
@@ -439,7 +439,7 @@ keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, pu
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#E53935</string>
+        <string>#F77669</string>
       </dict>
     </dict>
     <dict>
@@ -450,9 +450,9 @@ keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, pu
       <key>settings</key>
       <dict>
         <key>background</key>
-        <string>#FDDBABFF</string>
+        <string>#1e3445ff</string>
         <key>foreground</key>
-        <string>#99b89dff</string>
+        <string>#d9f5ddff</string>
       </dict>
     </dict>
     <dict>
@@ -463,7 +463,7 @@ keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, pu
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#FFC000</string>
+        <string>#F1E655</string>
       </dict>
     </dict>
     <dict>
@@ -474,7 +474,7 @@ keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, pu
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#FF5370</string>
+        <string>#ff5370ff</string>
       </dict>
     </dict>
     <dict>
@@ -485,7 +485,7 @@ keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, pu
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#945eb8ff</string>
+        <string>#c792eaff</string>
       </dict>
     </dict>
     <dict>
@@ -497,7 +497,7 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#A2C35F</string>
+        <string>#FFEB95</string>
       </dict>
     </dict>
     <dict>
@@ -508,7 +508,7 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#3fb3a8ff</string>
+        <string>#80CBC4</string>
       </dict>
     </dict>
     <dict>
@@ -519,7 +519,7 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#E53935</string>
+        <string>#F77669</string>
       </dict>
     </dict>
     <dict>
@@ -530,7 +530,7 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#b81511ff</string>
+        <string>#d3423eff</string>
       </dict>
     </dict>
     <dict>
@@ -541,9 +541,9 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>background</key>
-        <string>#b83a42ff</string>
+        <string>#EC5F67</string>
         <key>foreground</key>
-        <string>#FFFFFF</string>
+        <string>#ffffffff</string>
       </dict>
     </dict>
     <dict>
@@ -554,9 +554,9 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>background</key>
-        <string>#E53935</string>
+        <string>#F77669</string>
         <key>foreground</key>
-        <string>#FFFFFF</string>
+        <string>#020e14ff</string>
       </dict>
     </dict>
     <dict>
@@ -567,9 +567,9 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>background</key>
-        <string>#b81511ff</string>
+        <string>#d3423eff</string>
         <key>foreground</key>
-        <string>#FFFFFF</string>
+        <string>#ffffffff</string>
       </dict>
     </dict>
     <dict>
@@ -580,9 +580,9 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>background</key>
-        <string>#64b81bff</string>
+        <string>#8BD649</string>
         <key>foreground</key>
-        <string>#FFFFFF</string>
+        <string>#ffffffff</string>
       </dict>
     </dict>
     <dict>
@@ -593,9 +593,9 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>background</key>
-        <string>#b8b8b5ff</string>
+        <string>#fffff7ff</string>
         <key>foreground</key>
-        <string>#811625ff</string>
+        <string>#7b5157ff</string>
       </dict>
     </dict>
     <dict>
@@ -606,9 +606,9 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>background</key>
-        <string>#b86f72ff</string>
+        <string>#ff9599ff</string>
         <key>foreground</key>
-        <string>#FFFFFF</string>
+        <string>#ffffffff</string>
       </dict>
     </dict>
     <dict>
@@ -619,9 +619,7 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>background</key>
-        <string>#b83832ff</string>
-        <key>foreground</key>
-        <string>#FFFFFF</string>
+        <string>#ff4941ff</string>
       </dict>
     </dict>
     <dict>
@@ -632,9 +630,9 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>background</key>
-        <string>#FFA000</string>
+        <string>#FFCF1B</string>
         <key>foreground</key>
-        <string>#FFFFFF</string>
+        <string>#ffffffff</string>
       </dict>
     </dict>
     <dict>
@@ -645,7 +643,7 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>background</key>
-        <string>#FFFFFF</string>
+        <string>#ff4941ff</string>
       </dict>
     </dict>
     <dict>
@@ -656,9 +654,9 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>background</key>
-        <string>#b8b8b833</string>
+        <string>#ffffff33</string>
         <key>foreground</key>
-        <string>#FFFFFF</string>
+        <string>#ffffffff</string>
       </dict>
     </dict>
     <dict>
@@ -669,9 +667,7 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>background</key>
-        <string>#b83832ff</string>
-        <key>foreground</key>
-        <string>#FFFFFF</string>
+        <string>#ff4941ff</string>
       </dict>
     </dict>
     <dict>
@@ -682,7 +678,7 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#b84224ff</string>
+        <string>#ff572dff</string>
       </dict>
     </dict>
     <dict>
@@ -693,7 +689,7 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#b89617</string>
+        <string>#ffcf1bff</string>
       </dict>
     </dict>
     <dict>
@@ -704,7 +700,7 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#b8b8b8ff</string>
+        <string>#ffffffff</string>
       </dict>
     </dict>
     <dict>
@@ -737,7 +733,7 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#91b859</string>
+        <string>#C3E88D</string>
       </dict>
     </dict>
     <dict>
@@ -759,7 +755,7 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#E1E4E6</string>
+        <string>#5C7E8C</string>
       </dict>
     </dict>
     <dict>
@@ -770,7 +766,7 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#E53935</string>
+        <string>#FFEB95</string>
       </dict>
     </dict>
     <dict>
@@ -781,7 +777,7 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#3fb3a8ff</string>
+        <string>#80CBC4</string>
       </dict>
     </dict>
     <dict>
@@ -792,7 +788,7 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#FFCF1B</string>
+        <string>#ffcb6b</string>
       </dict>
     </dict>
     <dict>
@@ -803,7 +799,7 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#3fb3a8ff</string>
+        <string>#80CBC4</string>
       </dict>
     </dict>
     <dict>
@@ -814,7 +810,7 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#FB8C00</string>
+        <string>#FFEB95</string>
       </dict>
     </dict>
     <dict>
@@ -825,7 +821,7 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#7c4dff</string>
+        <string>#7986CB</string>
       </dict>
     </dict>
     <dict>
@@ -847,7 +843,7 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#91b859</string>
+        <string>#C3E88D</string>
       </dict>
     </dict>
     <dict>
@@ -858,7 +854,7 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#7C4DFF</string>
+        <string>#F77669</string>
       </dict>
     </dict>
     <dict>
@@ -869,7 +865,7 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#91b859</string>
+        <string>#C3E88D</string>
       </dict>
     </dict>
     <dict>
@@ -880,7 +876,7 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#E53935</string>
+        <string>#F77669</string>
       </dict>
     </dict>
     <dict>
@@ -902,7 +898,7 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#EBB060</string>
+        <string>#FFEB95</string>
       </dict>
     </dict>
     <dict>
@@ -924,7 +920,7 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#90A4AE</string>
+        <string>#ff5370</string>
       </dict>
     </dict>
     <dict>
@@ -935,7 +931,7 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#90A4AE</string>
+        <string>#DDDDDD</string>
       </dict>
     </dict>
     <dict>
@@ -946,7 +942,7 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#7986CB</string>
+        <string>#FFEB95</string>
         </dict>
     </dict>
     <dict>
@@ -957,7 +953,7 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#597078</string>
+        <string>#b2ccd6</string>
         </dict>
     </dict>
     <dict>
@@ -968,7 +964,7 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#e53935</string>
+        <string>#f77669</string>
         </dict>
     </dict>
     <dict>
@@ -979,29 +975,40 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#91b859</string>
+        <string>#C3E88D</string>
         </dict>
     </dict>
     <dict>
       <key>name</key>
       <string>Elixir: Module Names</string>
       <key>scope</key>
-      <string>source.elixir support.type.elixir</string>
+      <string>source.elixir support.type.elixir, source.elixir meta.module.elixir entity.name.class.elixir</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#EBB060</string>
+        <string>#82AAFF</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Elixir: Function definitions</string>
+      <key>scope</key>
+      <string>source.elixir entity.name.function</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#ffcb6b</string>
       </dict>
     </dict>
     <dict>
       <key>name</key>
       <string>Symbols</string>
       <key>scope</key>
-      <string>source.elixir constant.other.symbol.elixir, source.elixir constant.other.keywords.elixir, source.ruby constant.other.symbol</string>
+      <string>source.elixir constant.other.symbol.elixir, source.ruby constant.other.symbol</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#E53935</string>
+        <string>#F77669</string>
       </dict>
     </dict>
     <dict>
@@ -1012,7 +1019,7 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#99b89dff</string>
+        <string>#C3E88D</string>
       </dict>
     </dict>
     <dict>
@@ -1023,7 +1030,7 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#EBB060</string>
+        <string>#ffcb6b</string>
       </dict>
     </dict>
     <dict>
@@ -1034,7 +1041,7 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#39ADB5</string>
+        <string>#c792ea</string>
       </dict>
     </dict>
     <dict>
@@ -1045,7 +1052,7 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#7986CB</string>
+        <string>#c792ea</string>
       </dict>
     </dict>
     <dict>
@@ -1065,7 +1072,7 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#CFD8DC</string>
+        <string>#37474F</string>
       </dict>
     </dict>
     <dict>
@@ -1074,7 +1081,7 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#E53935</string>
+        <string>#FFEB95</string>
       </dict>
     </dict>
   </array>
